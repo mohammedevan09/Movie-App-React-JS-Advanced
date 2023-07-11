@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 
 import './movieCard.scss'
-import Img from '../lazyLoadImage/img'
+import Img from '../lazyLoadImage/Img.jsx'
 import CircleRating from '../circleRating/CircleRating'
 import Genres from '../genres/Genres'
 import PosterFallback from '../../assets/no-poster.png'
