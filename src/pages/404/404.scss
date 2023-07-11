@@ -1,0 +1,15 @@
+@import '../../mixins.scss';
+.pageNotFound {
+  font-size: 24px;
+  color: var(--black-light);
+  text-align: center;
+  .noResult {
+    width: 400px;
+    @include md {
+      width: 800px;
+    }
+    @include xl {
+      width: 1200px;
+    }
+  }
+}
