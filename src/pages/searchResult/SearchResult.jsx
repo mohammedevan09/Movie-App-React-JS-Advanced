@@ -7,7 +7,7 @@ import ContentWrapper from '../../components/contentWrapper/ContentWrapper'
 import MovieCard from '../../components/movieCard/MovieCard'
 import Spinner from '../../components/spinner/Spinner'
 import noResults from '../../assets/no-results.png'
-import Img from '../../components/lazyLoadImage/img'
+import Img from '../../components/lazyLoadImage/Img.jsx'
 import './searchResult.scss'
 
 const SearchResult = () => {
